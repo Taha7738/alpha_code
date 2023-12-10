@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include alpha_code *.css
+recursive-include alpha_code *.csv
+recursive-include alpha_code *.html
+recursive-include alpha_code *.ico
+recursive-include alpha_code *.js
+recursive-include alpha_code *.json
+recursive-include alpha_code *.md
+recursive-include alpha_code *.png
+recursive-include alpha_code *.py
+recursive-include alpha_code *.svg
+recursive-include alpha_code *.txt
+recursive-exclude alpha_code *.pyc
