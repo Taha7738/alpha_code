@@ -1,17 +1,18 @@
 from . import __version__ as app_version
 
 app_name = "alpha_code"
-app_title = "alpha code"
+app_title = "Alpha Code"
 app_publisher = "alpha code"
 app_description = "alpha code"
-app_email = "alphaCode@gmail.com"
+app_email = "alphacode@hotmail.com"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/alpha_code/css/alpha_code.css"
+app_include_css = "/assets/alpha_code/css/alpha_code001.css"
+
 # app_include_js = "/assets/alpha_code/js/alpha_code.js"
 
 # include js, css files in header of web template
@@ -19,7 +20,7 @@ app_license = "MIT"
 # web_include_js = "/assets/alpha_code/js/alpha_code.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "alpha_code/public/scss/website"
+# website_theme_scss = "alpha_code/public/scss/website.scss"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}

@@ -1,0 +1,115 @@
+ :root,
+[data-theme=light] {
+    --bg-color: #f4f6f9;
+    --icon-stroke: auto;
+    
+    /* --sidebar-select-color: #85bdbd; */
+}
+     [data-theme=dark] { 
+
+ }
+.navbar {
+    height: 60px;
+    background: #343a40;
+    box-shadow: var(--shadow-sm);
+    padding: 0;
+} 
+
+
+*:before,
+*:after {}
+
+@media (min-width: 768px) {
+    body.full-width .container {
+        width: 100%;
+        max-width: 100%
+    }
+}
+
+.standard-sidebar .standard-sidebar-item,
+.desk-sidebar .standard-sidebar-item,
+.search-dialog .search-results .search-sidebar .standard-sidebar-item {
+    display: flex;
+    align-items: center;
+    font-size: var(--text-base);
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    border: solid 1px #343a40;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    cursor: pointer
+}
+
+[data-page-route=Workspaces] .sidebar-item-container .sidebar-item-container .standard-sidebar-item {
+    justify-content: start;
+    border: 0px;
+} 
+
+a.nav-link {
+    color: #f4f6f9;
+}
+.navbar-nav a {
+    color: #f4f6f9;
+}
+.navbar-nav .icon {
+    stroke: #f4f6f9;
+}
+.desk-sidebar-item.standard-sidebar-item.selected {
+    background-color: #343a40;
+}
+.standard-sidebar-item.selected a {
+    color: #f4f6f9;
+}
+.standard-sidebar-item.selected .icon {
+    stroke: #f4f6f9;
+}
+.widget.links-widget-box {
+    padding: 12px 7px;
+    border-top: 3px solid #343a40;
+}
+.widget {
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+    padding: 7px;
+    border-radius: 0.25rem;
+    height: 100%;
+    background-color: var(--card-bg);
+    border: 0 solid rgba(0, 0, 0, .125);
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+}
+.links-widget-box .widget-head {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0.75rem 1.25rem;
+}
+.icon {
+   
+    stroke: #343a40;
+}
+#sidebarList li a, #global-sidebarList li a {
+    width: 100%;
+    display: block;
+    min-height: 20px;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #f4f6f9;
+    
+}
+#global-sidebarList svg {
+    stroke:  #f4f6f9;
+    
+}
+.dropdown-menu.show {
+    background-color: #343a40;
+}
+.dropdown-item {
+    
+    color: #f4f6f9;
+}
+.list-sidebar .dropdown-menu .empty-state {
+    color: #f4f6f9;
+}
+.dropdown-item {
+    color: #f4f6f9;
+
+}
